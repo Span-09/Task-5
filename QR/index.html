@@ -1,0 +1,286 @@
+<!-- this the file which leads to QRAlliym website -->
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shiftapp.net/QR알리미/index.html" />
+    <meta property="og:description" content="QR알리미" />
+    <title>QR알리미</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic:regular,700,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/QR/reset.css" />
+    <!-- web ================================================================================================================ -->
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width:1024px)"
+      href="/QR/css/web/header.css"
+    />
+    <link rel="stylesheet" media="only screen and (min-width:1024px)" href="/QR/css/web/main.css" />
+    <link rel="stylesheet" media="only screen and (min-width:1024px)" href="/QR/css/web/footer.css"/>
+    <!-- tablet ============================================================================================================= -->
+    <link rel="stylesheet" media="only screen and (max-width:1023px) and (min-width:641px)" href="/QR/css/tablet/header.css"/>
+    <link rel="stylesheet" media="only screen and (max-width:1023px) and (min-width:641px)" href="/QR/css/tablet/main.css"/>
+    <link rel="stylesheet" media="only screen and (max-width:1023px) and (min-width:641px)" href="/QR/css/tablet/footer.css"
+    />
+    <!-- mobile ============================================================================================================= -->
+    <link rel="stylesheet" media="only screen and (max-width:430px)" href="/QR/css/mobile/header.css" />
+    <link rel="stylesheet" media="only screen and (max-width:430px)" href="/QR/css/mobile/main.css" />
+    <link rel="stylesheet" media="only screen and (max-width:430px)" href="/QR/css/mobile/footer.css" />
+
+    <link rel="icon" href="/QR/imgs/favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/1065d4440f.js" crossorigin="anonymous"></script>
+  </head>
+  <style>
+    html{
+      width: 1920px;
+      height: 3693px;
+      max-width: 100%;
+      background: #FFF;
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="center">
+          <div class="header_center">
+            <div class="header_logo_container">
+              <div class="header_logo">
+                  <img src="./imgs/logo_img.svg" alt="Logo" class="header_logo_img">
+                  <img src="./imgs/Logo_text.svg" alt="Logo Text" class="header_logo_text">
+              </div>
+              
+            </div>    
+          </div>
+          <nav class="header_nav">
+            <ul class="header_list">
+              <li class="header_item">
+                <div class="header_text"><a href="/QR/index.html" class="header_link">QR알리미란?</a></div>
+              </li>
+              <div class="line">|</div>
+              <li class="header_item">
+                <div class="header_text"><a href="/QR/QRUserGuide/index.html" class="header_link">QR알리미 사용하기</a></div>
+              </li>
+              <div class="line">|</div>
+              <li class="header_item">
+                <div class="header_text"><a href="/QR/FAQ/index.html" class="header_link">커뮤니티</a></div>
+              </li>
+              <div class="line">|</div>
+              <li class="header_item">
+                <div class="header_text"><a href="/QR/B2B/index.html" class="header_link">B2B</a></div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="main_img_swiper swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./imgs/Main_img.png" alt="Main img 1" class="main_img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/Main_img2.png" alt="Main img 2" class="main_img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/Main_img.png" alt="Main img 1" class="main_img" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/Main_img2.png" alt="Main img 2" class="main_img" />
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+      <!-- Navigation buttons removed: only pagination dots will show -->
+      <!-- Add pagination if desired -->
+      <div class="custom-pagination-bar">
+        <div class="swiper-pagination-dots-container">
+          <div class="swiper-pagination-dots" >
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <img src="./imgs/pause-icon.svg" alt="pause" class="swiper-pause-btn" id="swiperToggleBtn">
+      </div>
+    </div>
+    <main class="main">
+      <div class="Qr_code_container">
+              <div class="code_google">
+                <a
+                  rel="noopener"
+                  href="https://play.google.com/store/apps/details?id=com.jejecomms.qrparking&pli=1"
+                  target="_blank"
+                >
+                  <img src="/QR/imgs/QR_Google.png" alt="QR" />
+                </a>
+              </div>
+              <div class="code_app">
+                <a
+                  rel="noopener"
+                  href="https://apps.apple.com/kr/app/qralimy/id1628992038"
+                  target="_blank"
+                >
+                  <img src="/QR/imgs/QR_App.png" alt="QR" />
+                </a>
+              </div>
+              <div class="code_introduction">
+                <a href="/QR/docs/introduction_2025.pdf" target="_blank">
+                  <img src="/QR/imgs/QR_introduction.png" alt="QR" />
+                </a>
+              </div>
+              <div class="emoji_container">
+                <img src="./imgs/emoji_car_drive.png" alt="Emoji Car Drive" class="emoji_car_drive" />
+              </div>
+        </div>
+
+      <!-- ================================================================================================================================ -->
+
+      <!-- ========================================================================================================================================= -->
+
+      <section class="info0">
+        <img src="/QR/imgs/newspaper_background.png" alt="newspaper" class="info0_img"/>
+        <div class="video_slider">
+              <video
+                controls
+                class="video_element"
+                src="/QR/imgs/news_video1.mp4"
+                id="videoElement"
+              ></video>
+            </div>
+      </section>
+
+      <!-- ==================================================================================================================================== -->
+
+      <!-- ================================================================================================================================ -->
+
+      <!-- ================================================================================================================================ -->
+      <img src="./imgs/banner_img.png" alt="Banner image" class="banner_img">
+    
+
+      <!-- ================================================================================================================================ -->
+
+      <section class="info2" id="info2">
+        <div class="video">
+          <div class="video-title">
+            <img src="/QR/imgs/icon_computer.png" alt="icon" class="info2_img"/>
+            <div class="SNS_title"><span class="text">QR알리미 SNS</span></div>
+          </div>
+            <div class="video_item">
+              <video
+                autoplay
+                controls
+                class="video_element"
+                id="videoMoveRequest"
+                src="/QR/imgs/advertisement.mp4"
+              ></video>
+            </div>
+          </div>
+        </div>
+        <div class="sns">
+              <div class="sns_wrap">
+                <a
+                  rel="noopener"
+                  href="https://blog.naver.com/jejecomms"
+                  class="line blog"
+                  target="_blank"
+                >
+                </a>
+                <a
+                  rel="noopener"
+                  href="https://www.instagram.com/jejecomms_jjang/"
+                  class="line instagram"
+                  target="_blank"
+                >
+                </a>
+                <a
+                  rel="noopener"
+                  href="https://www.facebook.com/JeJeComms"
+                  class="line facebook"
+                  target="_blank"
+                >
+                </a>
+                <a
+                  rel="noopener"
+                  href="https://www.youtube.com/@jejecommsshift3318"
+                  class="line youtube"
+                  target="_blank"
+                >
+                </a>
+              </div>
+      </section>
+
+      <!-- ================================================================================================================================ -->
+
+      
+    </main>
+
+    <footer class="app-usage-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-top-content">
+            <div class="footer-text-container">
+              <p class="footer-text">(주)제제컴즈</p>
+            </div>
+            <div class="footer-text-container_1">
+              <p class="footer-text">대표자 : 김준강</p>
+            </div>
+            <div class="footer-text-container_2">
+              <p class="footer-text">사업자등록번호 : 641-88-00828</p>
+            </div>
+          </div>
+          <div class="footer-top-content_1">
+            <p class="footer-text">통신판매업신고 : 제2021-성남수정-1335호</p>
+          </div>
+          <p class="footer-text">13449 경기 성남시 수정구 달래내로 46, 성남글로벌융합센터 A동 405호</p>
+          <div class="footer-text-container_3">
+            <p class="footer-text">T. 070-4252-5571</p>
+            <p class="footer-text">E. jejecomms@gmail.com</p>
+            <p class="footer-text">F. 0508-910-5575</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-bottom-text">회사소개</p>
+          <p class="footer-bottom-text">이용약관</p>
+          <p class="footer-bottom-text">개인정보처리방침</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/QR/js/move_request.js"></script>
+    <script src="/QR/js/video_element.js"></script>
+    <script src="/QR/js/popup.js"></script>
+    <script src="/QR/js/button.js"></script>
+    <script src="/QR/js/form.js"></script>
+    <script src="/QR/js/app.js"></script>
+
+    <div id="popup" class="popup">
+      <div class="popup_body">
+        <div class="popup_content">
+          <a href="#" id="popup_close" class="popup_close">&times;</a>
+          <div class="popup_image">
+            <img src="" alt="Popup Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
